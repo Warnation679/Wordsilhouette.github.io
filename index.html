@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio Francisco Figuereo</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <!--Creates the code for the navabar-->
+    <nav class="navbar"> <!--creates the navbar for the website-->
+        <div class="navbar_container"> <!--creates the container for the navbar-->
+            <a href="/" id="navbar_logo">
+                <i class="fas fa-gem"></i> <!--Creates the diamond icon-->
+                Francisco Figuereo</a> <!--creates the logo for the website-->
+
+            <div class="navbar_toggle" id="mobile_menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </div> 
+            <ul class="navbar_menu"> <!--creates a menu item-->
+                <!--<li class="navbar_item">
+                    <a href="/" class="navbar_links"> <!-- creats a tag with the designated name-->
+                        Home <!--The tab name-->
+                    </a>
+                </li>
+                <!--<li class="navbar_item">
+                    <a href="/" class="navbar_links"> <!-- creats a tag with the designated name-->
+                        Tech <!--The tab name-->
+                    </a>
+                </li>
+                <!--<li class="navbar_item">
+                    <a href="/" class="navbar_links"> <!-- creats a tag with the designated name-->
+                        Products <!--The tab name-->
+                    </a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/tech.html" class="button"> <!-- creats a tag with the designated name-->
+                        Try It! <!--The tab name-->
+                    </a>
+                </li>
+            </ul>
+        </div>        
+    </nav>  
+
+    <!--Hero section-->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Word Silhouette</h1>
+                <p>By Francisco Figuereo</p>
+                <p>------------------------------------------</p>
+                <p>Word silhouette is a program that generates words to track body movement </p>
+                <p>It works using ML5 bodypose to help track each main body part </p>
+                <p>After generating a set amount of words the code will designate each main point a certain amount of words to follow it</p>
+                <p>These will will follow the body in real-time making a silhouette of the person</p>
+                <p>It's promgramed to recognize the full body so for the full experience it's best to capture the full body</p>
+                <p>Sources:</p>
+                <p>https://docs.ml5js.org/#/reference/bodypose</p>
+                <p>--------------------------------------------</p>
+                <P>Project Link (In case button doesn't work)</P>
+                <p>https://editor.p5js.org/ffigu331/full/-Jdh5BjNu</p>
+                <!--<button class="main_btn"><a href="/"></a>Get Started</button>-->
+            </div>
+            <div class="main_image_container">
+                <img src="Images/wsilh_pic1.jpg" width="600" height="400" alt="pic" id="main_img">
+                <img src="Images/wsilh_pic2.jpg" width="600" height="400" alt="pic" id="main_img">
+                <img src="Images/wsilh_pic3.jpg" width="600" height="400" alt="pic" id="main_img">
+            </div>
+            <video width = "700" height = "500" controls style ="background: black;">
+                <source src="Images/wsilh_vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <script src="app.js"></script>   
+</body>
+</html>
